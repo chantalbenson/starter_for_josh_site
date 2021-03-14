@@ -27,7 +27,7 @@
 		         echo ' - page '. $paged; }
 		   ?>
 </title>
-
+<meta name="description" content="<?php bloginfo('description'); ?>">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -38,9 +38,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
       <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
-      <link rel="stylesheet" href="style.css" />
       <link rel="stylesheet" href="responsive.css" />
-<?php wp_head(); ?> <!—very important that this is added-->
+<?php wp_head(); ?>
       
   </head>
   <body>
