@@ -129,7 +129,7 @@ h4{
 }
 
 footer{
-    background-image: url(images/footer-bg.jpg);
+    background-image:url(images/footer-bg.jpg);
     background-size:cover;
     width:100%;
     background-position: center center;
