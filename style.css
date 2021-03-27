@@ -125,7 +125,8 @@ h4{
 .readmore{
     color: #a19ba6;
     font-size: 0.9em;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    display: block;
 }
 
 footer{
