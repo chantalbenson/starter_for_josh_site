@@ -33,10 +33,20 @@
 <a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
                                             
                 </div>
-                <div class="col-md-4 article-cent">               
-
+                <div class="col-md-4 article-cent">  
+                    
+<img class="img-responsive" alt=“model” src="<?php the_field('articleimage2'); ?>">
+<h4><?php the_field('articletitle2'); ?></h4>
+<p><?php the_field('articleexcerpt2'); ?> </p>
+<a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
+                    
                 </div>
+               
                 <div class="col-md-4 article-cent">
+<img class="img-responsive" alt=“gamedesign” src="<?php the_field('articleimage3'); ?>">
+<h4><?php the_field('articletitle3'); ?></h4>
+<p><?php the_field('articleexcerpt3'); ?> </p>
+<a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
                 </div>
                 
                     </div><!-- row-->
