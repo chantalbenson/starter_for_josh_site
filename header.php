@@ -66,8 +66,11 @@
             </div>
         </div>
     </nav>
-    <header class="container-fluid  herobg">
+   <header class="container-fluid herobg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
         <div class="container">
-            <h1> Games Design For the future</h1>
+<div class="container">
+            <h1><?php the_field('maintagline'); ?></h1>
+     </div> <!-- container-->
+
         </div>
 </header>
