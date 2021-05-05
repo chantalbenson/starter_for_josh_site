@@ -67,10 +67,8 @@
             </div>
         </div>
     </nav>
-        <div class="container">
-<div class="container animate__fadeInRight">
+<div class="container animated fadeInRight">
             <h1><?php the_field('maintagline'); ?></h1>
      </div> <!-- container-->
 
-        </div>
 </header>
