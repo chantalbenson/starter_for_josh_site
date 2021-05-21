@@ -48,9 +48,6 @@ function tagline() {
 add_action( 'widgets_init', 'tagline' );
 ?>
 
-add_action( 'wp', 'sv_hide_header_footer_for_page' );
-?>
-
 <?php
 add_action('wp_enqueue_scripts', 'sk_wow_init_in_footer');
 
